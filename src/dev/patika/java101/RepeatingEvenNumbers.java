@@ -1,4 +1,4 @@
-package dev.patika.java101.array;
+package dev.patika.java101;
 
 import java.util.Arrays;
 
