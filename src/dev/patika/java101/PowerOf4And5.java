@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class PowerOf4And5 {
 
 	public static void main(String[] args) {
-		//this code calculates power of the 4 and 5.
+		//This code calculates the power of the 4 and 5 until the number that is entered.
 		
 		System.out.println("Please enter ending number to calculate power of the 4 and 5");
 		Scanner input = new Scanner(System.in);
