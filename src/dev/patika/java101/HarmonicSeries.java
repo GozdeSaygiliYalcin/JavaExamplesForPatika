@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class HarmonicSeries {
 
 	public static void main(String[] args) {
-		// This is an example that can calculate harmonical avarage for array.
+		// This is an example that can calculate harmonical avarage for an array.
 				
 				Scanner input = new Scanner(System.in);
 				System.out.print("plese enter a number you want to calculate as harmonic:");
