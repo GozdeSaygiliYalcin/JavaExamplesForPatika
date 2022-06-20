@@ -30,7 +30,6 @@ public class LeapYear {
 	                System.out.print(year + " is leap year ");
 	            } else {
 	                System.out.print(year + " is not leap year");
-
 	            }
 	        } else {
 	            System.out.print("Incorrect login ");
