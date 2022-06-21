@@ -14,7 +14,7 @@ public class RepeatingEvenNumbers {
 		return false;
 	}
 	public static void main(String[] args) {
-		// This is an example that can calculate repating even numbers
+		// This is an example that can calculate repeating even numbers
 		
 		int [] list = {3,4,6,8,9,12,78,6,4,9};
 		int [] newList = new int[list.length];
