@@ -3,7 +3,7 @@ package dev.patika.java101.array;
 public class PrintingBWithArray {
 
 	public static void main(String[] args) {
-		// This is an example for 2d arrays which is creating "B" letter with using stars.
+		// This is an example of 2d arrays which is creating a "B" letter using stars.
 		
 		String [][] letter = new String [7][4];
 		
