@@ -3,7 +3,7 @@ package dev.patika.java101.array;
 public class ArrayHarmonicAvarage {
 
 	public static void main(String[] args) {
-		// This is an example that can calculate harmonical avarage for array.
+		// This is an example that can calculate harmonical avarage for an array.
 		
 		int [] list = {1,2,3,4,5,6,7,8,9,10}; 
 		
