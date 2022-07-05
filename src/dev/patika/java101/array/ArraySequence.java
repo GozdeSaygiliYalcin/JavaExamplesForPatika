@@ -46,9 +46,8 @@ public class ArraySequence {
 					counter++;
 			}
 			System.out.println(list[i]+counter);
+			}
+
 		}
-
 	}
-
-}
 }
