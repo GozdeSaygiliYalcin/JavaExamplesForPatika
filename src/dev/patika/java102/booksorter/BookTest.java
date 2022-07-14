@@ -1,15 +1,15 @@
 package dev.patika.java102.booksorter;
 
 import java.util.Comparator;
-import java.util.LinkedList;
+//import java.util.LinkedList;
 import java.util.TreeSet;
 
 public class BookTest {
 	
 	public static void main(String[] args) {
 		
-		LinkedList<Integer> l1 = new LinkedList<Integer>();
-		l1.addFirst(null);
+//		LinkedList<Integer> l1 = new LinkedList<Integer>();
+//		l1.addFirst(null);
 		
 		TreeSet<Book> bookList = new TreeSet<Book>();
 		
