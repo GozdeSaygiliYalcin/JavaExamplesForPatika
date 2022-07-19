@@ -1,4 +1,4 @@
-package dev.patika;
+package dev.patika.java101;
 
 import java.util.Scanner;
 
