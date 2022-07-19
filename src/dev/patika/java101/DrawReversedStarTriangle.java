@@ -6,7 +6,7 @@ public class DrawReversedStarTriangle {
 
 	public static void main(String[] args) {
 		
-		Scanner input = new Scanner(System.in);
+	Scanner input = new Scanner(System.in);
         int column ;
         System.out.print("Enter a number: ");
         column = input.nextInt();
