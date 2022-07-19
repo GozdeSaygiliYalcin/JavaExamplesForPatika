@@ -12,7 +12,7 @@ public class NumberOfDigitsSum {
 
 	public static void main(String[] args) {
 		
-		System.out.println("the number of the digits: " + sumOfDigits(1643));
+		System.out.println("the sum of the number of the digits: " + sumOfDigits(1643));
 		
 		}
 }
