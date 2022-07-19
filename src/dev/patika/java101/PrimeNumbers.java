@@ -22,19 +22,18 @@ public class PrimeNumbers {
 //		}
 //		System.out.println(prime);
 		
-		
-		 int kontrol = 0;
+		 int check = 0;
 	        for(int i = 2; i< 100;i++){
 	            for(int k=2;k<i;k++)
 	            {
 	                if(i%k == 0){
-	                    kontrol = 1;
+	                    check = 1;
 	                    break;
 	                }
 	            }
-	            if(kontrol == 0) 
+	            if(check == 0) 
 	            System.out.print(i + " - ");
-	            kontrol = 0;
+	            check = 0;
+	        }
 	}
-}
 }
