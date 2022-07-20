@@ -32,9 +32,9 @@ public class ArraySequence {
 
 	public static void main(String[] args) {
 		
-		 int[] arr = {2,312,31,423,523,5,23,312,2,5};
-         int n = arr.length;
-         countFreq(arr,n);
+		int[] arr = {2,312,31,423,523,5,23,312,2,5};
+	    int n = arr.length;
+	    countFreq(arr,n);
 		
 		
 		int [] list = {10,20,20,10,10,20,5,20};
