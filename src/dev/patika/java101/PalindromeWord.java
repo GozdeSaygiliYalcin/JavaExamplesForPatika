@@ -15,7 +15,7 @@ public class PalindromeWord {
             finish--;
         }
         return true;
-    }
+	}
 	
 	public static boolean isPalindrome2(String str) {
 		
@@ -31,8 +31,7 @@ public class PalindromeWord {
 			return false;
 		}
 	}
-
-
+	
 	public static void main(String[] args) {
 		
 		System.out.println(isPalindrome("hello"));
@@ -40,5 +39,4 @@ public class PalindromeWord {
 		System.out.println(isPalindrome("abaraba"));
 		System.out.println(isPalindrome2("abaraba"));
 	}
-
 }
