@@ -111,6 +111,31 @@ public class AdvancedCalculator {
 	        System.out.println("Sonuç : " + result);
 	    }
 	    
+	    static void mode(int number, int mode) {
+	    	 System.out.print("Lütfen modu alınacak sayıyı giriniz :");
+	    	 number = scan.nextInt();
+	    	 
+	    	 System.out.print("Lütfen bölünecek mod sayısını giriniz  :");
+	    	 mode = scan.nextInt();
+	    	 
+	    	 int result = (number % mode);
+	    	 System.out.println("Sonuç :" + result);
+	    }
+	    
+	    static void rectangle(double length, double width) {
+		      
+	        System.out.print("Lütfen dikdörtgenin 1.kenarını giriniz :");
+	        length = scan.nextInt();
+
+	        System.out.println("Lütfen dikdörtgenin 2.kenarını giriniz : ");
+	        width = scan.nextInt();
+	        
+	        double area = length * width;
+	        double perimeter = (length+width)*2;
+	        System.out.println("Dikdörtgenin alanı : " + area);
+	        System.out.println("Dikdörtgenin çevresi : " + perimeter);
+	    }
+	    
 	    static void initMenu() {
 	    	
 	        int select;
@@ -146,6 +171,12 @@ public class AdvancedCalculator {
 	                    break;
 	                case 6:
 	                    factorial();
+	                    break;
+	                case 7:
+	                    rectangle(select, select);
+	                    break;
+	                case 8:
+	                    mode(select, select);
 	                    break;
 	                case 0:
 	                    break;
