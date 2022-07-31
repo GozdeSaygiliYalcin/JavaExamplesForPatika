@@ -34,5 +34,6 @@ public class LeapYear {
 	        } else {
 	            System.out.print("Incorrect login ");
 	        }
+		 input.close();
 	}
 }

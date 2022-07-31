@@ -18,6 +18,7 @@ public class HarmonicSeries {
 				}
 				double avarage = (n1)/sumHarm;
 				System.out.println("Harmonic avarage is: " + avarage);
+				input.close();
 
 	}
 
