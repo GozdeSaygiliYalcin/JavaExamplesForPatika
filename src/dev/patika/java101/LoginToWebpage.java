@@ -3,6 +3,8 @@ package dev.patika.java101;
 import java.util.Scanner;
 
 public class LoginToWebpage {
+	
+	private static Scanner input =new Scanner(System.in);
 
 	public static void main(String[] args) {
 		//This is an example that shows login to web page step by step. If the password or username is wrong you cannot login.
@@ -12,7 +14,7 @@ public class LoginToWebpage {
 		String quit = "quit";
 	
 		while(true) {
-		Scanner input =new Scanner(System.in);
+		
 		System.out.print("Welcome, please enter your username: ");
 		userName = input.next();
 		
