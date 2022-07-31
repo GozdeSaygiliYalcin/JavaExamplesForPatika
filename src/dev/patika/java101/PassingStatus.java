@@ -3,6 +3,8 @@ package dev.patika.java101;
 import java.util.Scanner;
 
 public class PassingStatus {
+	
+	private static Scanner input =new Scanner(System.in);
 
 	public static void main(String[] args) {
 		// This is an example that shows class passing status according to your grade.
@@ -11,8 +13,7 @@ public class PassingStatus {
 		
 		int lessonMusic = 0, lessonMath=0, lessonChem=0, lessonPhysics=0;
 		double avarage;
-		
-		Scanner input =new Scanner(System.in);
+
 		
 		do {
 			

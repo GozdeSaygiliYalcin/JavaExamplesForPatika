@@ -20,6 +20,7 @@ public class PowerOf4And5 {
 			System.out.print(i + ",");
 			
 		}
+		input.close();
 	}
 
 }

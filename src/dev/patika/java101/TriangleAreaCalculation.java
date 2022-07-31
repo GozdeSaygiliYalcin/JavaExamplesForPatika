@@ -1,4 +1,4 @@
-package dev.patika.java101;import java.awt.Shape;
+package dev.patika.java101;
 import java.util.Scanner;
 
 public class TriangleAreaCalculation {
@@ -9,7 +9,6 @@ public class TriangleAreaCalculation {
 		int side3;
 		double areaOfTriangle;
 		double halfLength;
-		
 	
 		
 		Scanner input =new Scanner(System.in);

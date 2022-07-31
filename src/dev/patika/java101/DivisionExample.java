@@ -24,6 +24,7 @@ public class DivisionExample {
 		}
 		avarage = total/counter;
 		System.out.println("the avarage is: " + avarage);
+		input.close();
 	}
 
 }
