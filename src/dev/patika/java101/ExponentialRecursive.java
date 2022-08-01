@@ -28,7 +28,7 @@ public class ExponentialRecursive {
         System.out.print("Enter Exponents Number : ");
         numberOne = input.nextInt();
 
-        System.out.println(sum(numberOne,numberTwo));
+        System.out.print("The result is : " + sum(numberOne,numberTwo));
 
 	}
 

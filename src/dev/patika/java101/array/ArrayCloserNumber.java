@@ -30,5 +30,6 @@ public class ArrayCloserNumber {
 				System.out.println("The sorted list is: " + Arrays.toString(list));
 				System.out.println("The closest minimum valıue is: "+min);
 				System.out.println("The closest maximum value is: "+ max);
+				input.close();
 	}
 }

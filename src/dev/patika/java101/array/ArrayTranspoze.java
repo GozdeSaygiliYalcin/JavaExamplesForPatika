@@ -20,5 +20,6 @@ public class ArrayTranspoze {
 		for (int[] ks : transpose) {
 			System.out.println(Arrays.toString(ks));	
 		}
+		input.close();
 	}
 }

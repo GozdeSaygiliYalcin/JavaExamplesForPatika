@@ -1,6 +1,5 @@
 package dev.patika.java101.array;
 
-import java.util.Arrays;
 
 public class RepeatingEvenNumbers {
 	

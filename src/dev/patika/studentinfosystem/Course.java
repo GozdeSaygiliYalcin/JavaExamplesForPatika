@@ -1,9 +1,38 @@
 package dev.patika.studentinfosystem;
 
 public class Course {
-
-	//name,stuNo,classes,course1,course2,course3,avarage,isPass
 	
-	private String name;
+    Teacher courseTeacher;
+    String name;
+    String code;
+    String prefix;
+    double note;
+    double noteAdd;
+
+    public Course(String name, String code, String prefix) {
+        this.name = name;
+        this.code = code;
+        this.prefix = prefix;
+        this.note = 0;
+        this.noteAdd = 0;
+    }
+
+    public void addTeacher(Teacher t) {
+        if (this.prefix.equals(t.branch)) {
+            this.courseTeacher = t;
+            System.out.println("İşlem başarılı");
+        } else {
+            System.out.println(t.name + " Akademisyeni bu dersi veremez.");
+        }
+    }
+
+    public void printTeacher() {
+        if (courseTeacher != null) {
+            System.out.println(this.name + " dersinin Akademisyeni : " + courseTeacher.name);
+        } else {
+            System.out.println(this.name + " dersine Akademisyen atanmamıştır.");
+        }
+    }
+
 	
 }
