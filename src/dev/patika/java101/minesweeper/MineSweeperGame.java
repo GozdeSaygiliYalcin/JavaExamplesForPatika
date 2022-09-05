@@ -33,9 +33,9 @@ public class MineSweeperGame {
 		
 		while(game) {
 			print(currentMap);
-			System.out.println("Row: ");
+			System.out.print("Row: ");
 			int row = input.nextInt();
-			System.out.println("Column: ");
+			System.out.print("Column: ");
 			int col = input.nextInt();
 			
 			if(row < 0 || row >= rowNum) {
